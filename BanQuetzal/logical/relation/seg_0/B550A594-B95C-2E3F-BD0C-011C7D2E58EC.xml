@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_24" directorySegmentName="seg_0" id="B550A594-B95C-2E3F-BD0C-011C7D2E58EC">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 23:56:08 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<sourcePk>82E13DA2-FC1B-C304-886B-811506A3525C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B24890ED-F530-F263-BE2F-5A138F06BC6E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4726E2BD-285E-C042-2E24-8D3E4BDAEE45</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD6D63BD-54FA-4AEF-C730-CA3A346265DD" name="Cuenta">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:59:14 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCuenta" id="63785ABA-D7DA-68C7-D721-459E522AC339">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:59:23 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fondos" id="42F039B9-E6FE-34B0-95F6-A0F184668B73">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 20:01:13 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Individualidad" id="01B81F64-86CF-D64B-6B92-A1C2158EC661">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 22:31:51 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEstadoCuenta" id="766EB33B-95EB-0787-FE85-E6E09EE4A557">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 22:38:26 UTC</createdTime>
+<generatorID>0EE1EF98-4A48-883F-211A-AC392F2C9335</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<referedAttribute>52E3783F-3B9D-3818-FCA3-A6EA560C5AD3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdTipoCuenta" id="4ABFF500-E21B-9D1B-6782-892F89834DD3">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 02:35:13 UTC</createdTime>
+<generatorID>44E3DB79-43B3-5BB5-82D9-94D4D3E4FF08</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<referedAttribute>EDAC03EA-DDAC-5EA6-BA23-B99990A00AB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7149C6F-37CE-FE2C-D737-D000478392F5" name="Cuenta PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:59:35 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63785ABA-D7DA-68C7-D721-459E522AC339</attributeRef>
+<attributeRef>766EB33B-95EB-0787-FE85-E6E09EE4A557</attributeRef>
+<attributeRef>4ABFF500-E21B-9D1B-6782-892F89834DD3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

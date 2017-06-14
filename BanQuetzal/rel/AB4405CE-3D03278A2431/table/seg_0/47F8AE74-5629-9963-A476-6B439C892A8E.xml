@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47F8AE74-5629-9963-A476-6B439C892A8E" name="Rol">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>78A69C03-5E70-47E6-02B5-FB25D6BCDEBD</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdRol" id="602024EF-DAFD-D3BF-7FCA-ED39AA1F75B9">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>A2724056-D489-F571-CA9D-256FC08ADC83</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="A82A822E-DA92-47FC-3802-7AABA05AC731">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>977B3104-1DD6-F424-DD28-B675C8225F62</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="FAB0E1CE-47E5-4D0D-E152-682C91FC8714">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>42D322CE-3884-B56A-92A0-268FAF2DAB67</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AE4A8AA-9AAB-59DF-17A0-054766E5AC21" name="Rol_PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>387CD919-0E85-EF31-0241-236525A97830</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="602024EF-DAFD-D3BF-7FCA-ED39AA1F75B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

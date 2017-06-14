@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="147EC958-271E-092B-BE9E-58012D85EE0E" name="EstadoPrestamo">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>4C0A2945-C166-3D60-567E-42A30E15FCD3</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEstadoPrestamo" id="5E66FA13-C66D-9D9F-BDB9-3CFB4180819B">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>E4DECDD8-1FB3-6349-6495-6E613146F7D9</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="B15A2E63-46D6-3F65-83A2-81AABB14194B">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>257D0857-0CBA-5718-8B1E-0239978D2FDA</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>23</dataTypeSize>
+<ownDataTypeParameters>23,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="2D158816-1550-70D9-1622-7C585625BBB8">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>A48BA431-6B03-8133-DEC2-C0798DEDF3BE</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0C743D3-24CB-9022-4704-7259A899C681" name="EstadoPrestamo_PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>5FAC3158-483E-451A-FD1C-02426B97E193</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E66FA13-C66D-9D9F-BDB9-3CFB4180819B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="AB4405CE-58F5-C089-1884-3D03278A2431" mainViewID="82F0D0DD-7011-55AF-E079-2A2A68A14E40">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:43:31 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

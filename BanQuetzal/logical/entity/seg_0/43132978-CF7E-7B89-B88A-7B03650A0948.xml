@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43132978-CF7E-7B89-B88A-7B03650A0948" name="ClienteCuenta">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 20:06:14 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdClienteCuenta" id="48F98D9C-D6C6-68D0-F82A-51FCED9AB795">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 20:06:23 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCuenta" id="9EF15AFF-CF93-265E-8E28-958E67B8E1B8">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 19:56:02 UTC</createdTime>
+<generatorID>1747BEAA-853F-A92E-E2B1-812FB38C9BDE</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<referedAttribute>63785ABA-D7DA-68C7-D721-459E522AC339</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEstadoCuenta" id="DF02EA58-A7ED-7D3D-FAC0-2EC42A75FAE5">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 19:56:02 UTC</createdTime>
+<generatorID>1747BEAA-853F-A92E-E2B1-812FB38C9BDE</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<referedAttribute>766EB33B-95EB-0787-FE85-E6E09EE4A557</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdTipoCuenta" id="E7D230F5-D40F-00FC-5550-E781DDEEF086">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 19:56:02 UTC</createdTime>
+<generatorID>1747BEAA-853F-A92E-E2B1-812FB38C9BDE</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<referedAttribute>4ABFF500-E21B-9D1B-6782-892F89834DD3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUI" id="63636BCB-D161-B740-AC4A-9DB9C3388484">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 19:56:32 UTC</createdTime>
+<generatorID>DD80D694-D480-F68B-4405-9FEE8DB64339</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<referedAttribute>DA3BE076-2D04-3278-85AE-AEE30741CB7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF4073A0-BD13-A05E-A649-C800F0D180B0" name="UsuarioNomina PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 20:16:52 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48F98D9C-D6C6-68D0-F82A-51FCED9AB795</attributeRef>
+<attributeRef>9EF15AFF-CF93-265E-8E28-958E67B8E1B8</attributeRef>
+<attributeRef>DF02EA58-A7ED-7D3D-FAC0-2EC42A75FAE5</attributeRef>
+<attributeRef>E7D230F5-D40F-00FC-5550-E781DDEEF086</attributeRef>
+<attributeRef>63636BCB-D161-B740-AC4A-9DB9C3388484</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

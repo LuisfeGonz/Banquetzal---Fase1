@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="BE5AB697-0CFA-911B-12DE-6177F9612B13">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:42:49 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

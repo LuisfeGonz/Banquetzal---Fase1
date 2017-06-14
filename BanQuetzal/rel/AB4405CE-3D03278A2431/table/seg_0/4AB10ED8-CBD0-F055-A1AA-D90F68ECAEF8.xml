@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4AB10ED8-CBD0-F055-A1AA-D90F68ECAEF8" name="Cuenta">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>FD6D63BD-54FA-4AEF-C730-CA3A346265DD</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCuenta" id="29E02C29-90C7-6049-6249-7FE299264E4C">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>63785ABA-D7DA-68C7-D721-459E522AC339</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fondos" id="B0D8198C-405A-ADB0-5133-D4A2AC0B501E">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>42F039B9-E6FE-34B0-95F6-A0F184668B73</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Individualidad" id="01B31D5D-6FA8-7A06-B5DC-B78B954D103E">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>01B81F64-86CF-D64B-6B92-A1C2158EC661</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstadoCuenta_IdEstadoCuenta" id="5FF09A50-D78D-F4F3-6E97-09E41647E8BA">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>766EB33B-95EB-0787-FE85-E6E09EE4A557</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1280D598-5AD3-4BD9-D49C-BB6EA5E1E8DA" referredColumn="10047187-E6E4-37AA-1A15-9983CA108554"/>
+</associations>
+</Column>
+<Column name="TipoCuenta_IdTipoCuenta" id="88F61A79-DCAB-AC0C-9AAF-D4799667A9B0">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>4ABFF500-E21B-9D1B-6782-892F89834DD3</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5966D887-732F-5AD6-6F20-8046E9EAC584" referredColumn="17B7FCDD-7ED9-76C0-0F25-5180A8D6BF5E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="257B0BA9-BB74-D3D7-00A2-A833AF728529" name="Cuenta_PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>D7149C6F-37CE-FE2C-D737-D000478392F5</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29E02C29-90C7-6049-6249-7FE299264E4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18162004-264F-294A-27D9-7EC3CA768A1F" name="Cuenta_EstadoCuenta_FK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>0EE1EF98-4A48-883F-211A-AC392F2C9335</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FF09A50-D78D-F4F3-6E97-09E41647E8BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD5D764A-00AD-FFBA-A7E1-CCFC3005D856" name="Cuenta_TipoCuenta_FK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>44E3DB79-43B3-5BB5-82D9-94D4D3E4FF08</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88F61A79-DCAB-AC0C-9AAF-D4799667A9B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

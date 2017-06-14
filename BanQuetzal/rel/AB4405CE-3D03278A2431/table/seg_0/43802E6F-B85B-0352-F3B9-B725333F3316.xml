@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43802E6F-B85B-0352-F3B9-B725333F3316" name="Canje">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>5510AFB4-73AC-F278-8E5B-F28FC908CB02</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdCanje" id="EDCDA8FF-4ECC-33A7-D30E-AEFE8E4843B7">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>E467F169-AEB3-BCE1-DF52-6ED262B26314</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_CUI" id="FE800354-3C2A-B67C-41EF-77B14A79A90A">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>FDDA3B18-A78A-701C-0616-5EBC4D6C7766</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE4843C3-9C44-A7EA-92AD-052BE9F646F3" referredColumn="339F437D-2B81-850B-B366-355B18F27572"/>
+</associations>
+</Column>
+<Column name="Producto_IdProducto" id="46735EF3-9FA8-95F3-351B-538CCA12CDE8">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>35DB820F-8CB6-7230-10FD-9954631EB5EE</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9292BF91-44FA-CCBF-2C78-EFD53D54EB36" referredColumn="9BB50C02-E797-D29D-5D91-C10B11B30F6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="744E722B-1F6E-E10E-211A-A733203B377B" name="Canje_PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>0E01B471-87CD-8523-53E1-8B730450FF8D</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDCDA8FF-4ECC-33A7-D30E-AEFE8E4843B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10CBB42E-9776-FE47-31F9-274D763E2337" name="Canje_Cliente_FK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>10A82C49-2A7C-B5C1-9CE2-1900A9B33D5E</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE800354-3C2A-B67C-41EF-77B14A79A90A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F979659-2140-8B11-592D-39EFB7586D12" name="Canje_Producto_FK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>9B1329C0-50D5-DC16-278B-E7F1D3F07F41</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46735EF3-9FA8-95F3-351B-538CCA12CDE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

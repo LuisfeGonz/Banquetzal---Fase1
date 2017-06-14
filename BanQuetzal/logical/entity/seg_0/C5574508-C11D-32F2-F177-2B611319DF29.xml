@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5574508-C11D-32F2-F177-2B611319DF29" name="Cheque">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 21:55:06 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCheque" id="5D390141-545C-BD72-C89E-36D26CD1C0BA">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 21:55:13 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCuenta" id="26212975-0BE2-EACC-AFF7-ABD8E55F4CA7">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 02:36:21 UTC</createdTime>
+<generatorID>7977DF6F-CE28-0984-8163-09C5CA30B4B6</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<referedAttribute>63785ABA-D7DA-68C7-D721-459E522AC339</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEstadoCuenta" id="3D415197-42CA-84F9-2E32-8C259735D91F">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 02:36:21 UTC</createdTime>
+<generatorID>7977DF6F-CE28-0984-8163-09C5CA30B4B6</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<referedAttribute>766EB33B-95EB-0787-FE85-E6E09EE4A557</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdTipoCuenta" id="60E3B773-FC12-B20F-2789-D566A859A97A">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 02:36:21 UTC</createdTime>
+<generatorID>7977DF6F-CE28-0984-8163-09C5CA30B4B6</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<referedAttribute>4ABFF500-E21B-9D1B-6782-892F89834DD3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47BB39FF-CCCB-7242-57EC-F7F4926784C3" name="Cheque PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 21:55:24 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D390141-545C-BD72-C89E-36D26CD1C0BA</attributeRef>
+<attributeRef>26212975-0BE2-EACC-AFF7-ABD8E55F4CA7</attributeRef>
+<attributeRef>3D415197-42CA-84F9-2E32-8C259735D91F</attributeRef>
+<attributeRef>60E3B773-FC12-B20F-2789-D566A859A97A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

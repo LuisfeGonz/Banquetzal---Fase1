@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5966D887-732F-5AD6-6F20-8046E9EAC584" containerWithKeyObject="4AB10ED8-CBD0-F055-A1AA-D90F68ECAEF8" localFKIndex="BD5D764A-00AD-FFBA-A7E1-CCFC3005D856" name="Cuenta_TipoCuenta_FK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>44E3DB79-43B3-5BB5-82D9-94D4D3E4FF08</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D3ED73B-99FB-F830-9CFF-74F289D60527</referredTableID>
+<keyObject>873038BF-F59F-5ACA-296E-A8F0C1AC22C4</keyObject>
+<referredKeyID>873038BF-F59F-5ACA-296E-A8F0C1AC22C4</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

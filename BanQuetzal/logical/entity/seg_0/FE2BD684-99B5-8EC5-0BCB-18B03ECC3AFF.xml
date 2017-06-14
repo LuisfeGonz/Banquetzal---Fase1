@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE2BD684-99B5-8EC5-0BCB-18B03ECC3AFF" name="Cliente">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>44F9C440-7D84-F327-40FA-2E5008658C84</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CUI" id="DA3BE076-2D04-3278-85AE-AEE30741CB7C">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>40388E4D-BCD1-3AB9-CD61-8AB8E4FDA58B</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contrasena" id="A056C9A0-9955-ADF3-691B-18235436993D">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 23:37:33 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombres" id="8BE2E286-B79B-33E7-FF76-EFC0FEDC77C6">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>91553820-D429-2EFB-248A-DEE125313333</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="33D69128-1BBB-DAE4-F5FF-8938A3F85917">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>94964D0A-D42A-8A15-A194-20625DA82314</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacimiento" id="49AE56D4-2A9A-3554-3905-2F4368B6AFE9">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>7DAEF7B1-99E6-4323-5FBB-5ABB1D1EF2ED</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Puntos" id="5AF458A1-2860-A975-8462-55A225557821">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 21:04:39 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salario" id="54E791BA-132B-9DEF-DD2A-8128AA39E961">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-12 22:12:24 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,7,3</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEB80EAC-B326-F963-464C-D7DC7AFABF77" name="Usuario PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>3A261BE5-E9F2-91D8-4DEC-86AEB6F96FE7</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA3BE076-2D04-3278-85AE-AEE30741CB7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

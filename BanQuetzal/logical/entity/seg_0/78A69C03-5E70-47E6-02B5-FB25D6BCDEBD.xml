@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78A69C03-5E70-47E6-02B5-FB25D6BCDEBD" name="Rol">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>1DC60A97-3417-D6D6-E354-897544B35A56</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdRol" id="A2724056-D489-F571-CA9D-256FC08ADC83">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>301B4B6D-52E3-F78B-FEC9-D4835474771A</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="977B3104-1DD6-F424-DD28-B675C8225F62">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>B7CDB33F-1B27-3116-9594-D1FADB20C166</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="42D322CE-3884-B56A-92A0-268FAF2DAB67">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>D50772B0-FAA3-5D8F-7725-0BD5FCE02391</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="387CD919-0E85-EF31-0241-236525A97830" name="TipoUsuario PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:55:49 UTC</createdTime>
+<generatorID>C56F34DF-2478-199B-6A6B-6348D4C7EA3F</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2724056-D489-F571-CA9D-256FC08ADC83</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

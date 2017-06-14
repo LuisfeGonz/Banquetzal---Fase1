@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9757D037-D182-9ADD-D130-384015376DEF" name="ClienteCuenta">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>43132978-CF7E-7B89-B88A-7B03650A0948</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdClienteCuenta" id="B5D52C3B-44B3-900A-51DE-B70BD8AC3F64">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>48F98D9C-D6C6-68D0-F82A-51FCED9AB795</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cuenta_IdCuenta" id="8EA646C4-39BB-585F-B71D-D532B98A5451">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>9EF15AFF-CF93-265E-8E28-958E67B8E1B8</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87DC14FE-B3E1-5D81-B3C7-84A370B9BDF0" referredColumn="29E02C29-90C7-6049-6249-7FE299264E4C"/>
+</associations>
+</Column>
+<Column name="Cliente_CUI" id="C851787A-3EE6-9234-6D99-FFCAEDB6CCE0">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>63636BCB-D161-B740-AC4A-9DB9C3388484</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="755F78AD-6009-09E1-7DD3-0641FF8121B8" referredColumn="339F437D-2B81-850B-B366-355B18F27572"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11C377C2-7A42-8123-F928-2B72A1B8E88E" name="ClienteCuenta_PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>FF4073A0-BD13-A05E-A649-C800F0D180B0</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5D52C3B-44B3-900A-51DE-B70BD8AC3F64"/>
+<colUsage columnID="8EA646C4-39BB-585F-B71D-D532B98A5451"/>
+<colUsage columnID="C851787A-3EE6-9234-6D99-FFCAEDB6CCE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98BC119C-6D56-EF68-9469-EBA5562E236B" name="ClienteCuenta_Cuenta_FK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>1747BEAA-853F-A92E-E2B1-812FB38C9BDE</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EA646C4-39BB-585F-B71D-D532B98A5451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB1362CD-E132-18C0-1E65-1B914A686217" name="ClienteCuenta_Cliente_FK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>DD80D694-D480-F68B-4405-9FEE8DB64339</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C851787A-3EE6-9234-6D99-FFCAEDB6CCE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

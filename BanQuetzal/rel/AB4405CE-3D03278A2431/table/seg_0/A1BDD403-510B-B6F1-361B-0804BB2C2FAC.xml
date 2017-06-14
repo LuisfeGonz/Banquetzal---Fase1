@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1BDD403-510B-B6F1-361B-0804BB2C2FAC" name="ProveedorProducto">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>F71C705C-320D-D378-BA41-944CDB73D747</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProveedorProducto" id="D066A605-B8DD-631D-F68A-F4B5E7C5F32C">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>F109590B-B53D-441D-91CE-6D0676BD46F9</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stock" id="47E09CC4-DCFD-270B-0A5D-40F0E22373CE">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>33EDAB9E-C345-5141-93C0-3E5D956C306D</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor_IdProveedor" id="E5C4C8E3-29EE-B166-F9B7-7E0FE75C5316">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>8424F665-E56C-28DC-4270-CEEC7E8D1FD0</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9DF4C24-0ED9-8231-BA4A-A1AA0DE47B24" referredColumn="2BB744AA-E1CB-DB6F-3440-6BF61470F1AD"/>
+</associations>
+</Column>
+<Column name="Producto_IdProducto" id="73F3AB8D-34AF-C226-6295-C1D57F28E1E5">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>0418BF1D-228D-F47D-9B7B-78673825C1D2</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09461ED5-99ED-85FA-A442-B7EBD568A5CE" referredColumn="9BB50C02-E797-D29D-5D91-C10B11B30F6A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09ABA3F5-0DB8-3AEB-0D17-E5A17D613104" name="ProveedorProducto_PK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>B9303501-1A7D-4C53-2226-95B760E7E826</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D066A605-B8DD-631D-F68A-F4B5E7C5F32C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3023A59F-BB00-4CC0-9B0F-20055AF663E6" name="ProveedorProducto_Proveedor_FK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>433C5F3D-3D92-39F5-C641-810379E3B20D</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5C4C8E3-29EE-B166-F9B7-7E0FE75C5316"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3887415-04EB-E78A-9F23-BB0A36F6B9AB" name="ProveedorProducto_Producto_FK">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-13 23:32:03 UTC</createdTime>
+<generatorID>EC8E22FC-3434-8002-6C6C-CC84DC08556A</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F3AB8D-34AF-C226-6295-C1D57F28E1E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

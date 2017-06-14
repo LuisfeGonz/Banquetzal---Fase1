@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C688AC4B-526A-3E9E-3979-422DCEFAF270" mainViewID="2CF8E90C-CDC5-0E82-16DA-C429DB63562A">
+<createdBy>GoldNet</createdBy>
+<createdTime>2017-06-11 19:42:48 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
