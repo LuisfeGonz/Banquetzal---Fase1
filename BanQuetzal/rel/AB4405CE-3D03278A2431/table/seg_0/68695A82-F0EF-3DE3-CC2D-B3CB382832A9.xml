@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68695A82-F0EF-3DE3-CC2D-B3CB382832A9" name="AsociacionCuenta">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-15 23:53:52 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAsociacion" id="BE21CCD1-0B7F-ED81-1C2E-58EC06E1B474">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-15 23:55:00 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CuentaAsociada" id="FFD05291-01A2-8E99-DA9F-184DB12E6C33">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-15 23:55:00 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cuenta_IdCuenta" id="F7A206B2-BA7A-E037-2609-93708B583D6E">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-16 00:00:32 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A8A1C8B-AA1D-2B23-E176-21BF57A3CEE7" referredColumn="29E02C29-90C7-6049-6249-7FE299264E4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F074553-A8ED-609F-BAC0-9DEF1905801A" name="CuentaAsociada_PK">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-15 23:55:00 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE21CCD1-0B7F-ED81-1C2E-58EC06E1B474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DD08C18-45C3-F9F0-68AF-439F1F382DF8" name="AsociacionCuenta_Cuenta_FK">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-16 00:00:32 UTC</createdTime>
+<generatorID>D7149C6F-37CE-FE2C-D737-D000478392F5</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7A206B2-BA7A-E037-2609-93708B583D6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

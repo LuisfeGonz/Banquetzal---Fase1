@@ -108,6 +108,21 @@
 <colAssociation fkAssociation="E42E85DD-51B6-806C-0A6D-6BF2B05C2DA9" referredColumn="F5E04EB1-F3A9-FE0A-A11E-BE924B3C0787"/>
 </associations>
 </Column>
+<Column name="Trabajador_IdTrabajador" id="2F04F870-A36D-0381-A94F-2E9CEA57C254">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-16 00:08:25 UTC</createdTime>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FED62218-377F-1237-7209-D84252F9555B" referredColumn="9F35DC81-8EA1-F610-26FC-E6A24C0DC8D8"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="70F76483-8433-869F-AD17-66432B20B887" name="Trabajador_PK">
@@ -142,6 +157,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="85754AD9-DF85-DE7C-4B8A-3D4630565F1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C296CA98-00B4-BD16-9BBB-02D9AF85540A" name="Trabajador_Trabajador_FK">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-16 00:08:25 UTC</createdTime>
+<generatorID>AEC4247A-2C7B-1351-3115-B919D1DD40ED</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F04F870-A36D-0381-A94F-2E9CEA57C254"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
