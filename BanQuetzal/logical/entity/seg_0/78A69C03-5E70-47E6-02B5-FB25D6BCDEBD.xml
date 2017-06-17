@@ -60,7 +60,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="387CD919-0E85-EF31-0241-236525A97830" name="TipoUsuario PK">
+<identifier id="387CD919-0E85-EF31-0241-236525A97830" name="Rol_PK">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-11 19:55:49 UTC</createdTime>
 <generatorID>C56F34DF-2478-199B-6A6B-6348D4C7EA3F</generatorID>

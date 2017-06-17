@@ -91,7 +91,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdRol" id="AA08A5B8-C3B5-A564-4524-D1527B391126">
+<Attribute name="Rol IdRol" id="AA08A5B8-C3B5-A564-4524-D1527B391126">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 02:36:09 UTC</createdTime>
 <generatorID>A72F87EC-1BC8-A109-66DF-59B4C0C8D6BB</generatorID>
@@ -105,7 +105,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdAgencia" id="A991F6CF-7B01-B0AD-A354-01ADD5187F41">
+<Attribute name="Agencia IdAgencia" id="A991F6CF-7B01-B0AD-A354-01ADD5187F41">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-13 01:41:23 UTC</createdTime>
 <generatorID>E3045C0D-A874-4228-AF35-C717396CF5A5</generatorID>
@@ -119,9 +119,24 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Trabajador IdTrabajador" id="FD1D8EF3-AE0C-A693-7DBD-4E0A0AFE939A">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-16 23:57:41 UTC</createdTime>
+<generatorID>6C2F0A93-D742-85B6-9ED6-3E1491B9154E</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7788FCCA-82A2-AD61-4588-167A62D21ACA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="AEC4247A-2C7B-1351-3115-B919D1DD40ED" name="Usuario PK">
+<identifier id="AEC4247A-2C7B-1351-3115-B919D1DD40ED" name="Trabajador_PK">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-11 22:06:30 UTC</createdTime>
 <ownerDesignName>BanQuetzal</ownerDesignName>
@@ -131,8 +146,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7788FCCA-82A2-AD61-4588-167A62D21ACA</attributeRef>
-<attributeRef>AA08A5B8-C3B5-A564-4524-D1527B391126</attributeRef>
-<attributeRef>A991F6CF-7B01-B0AD-A354-01ADD5187F41</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

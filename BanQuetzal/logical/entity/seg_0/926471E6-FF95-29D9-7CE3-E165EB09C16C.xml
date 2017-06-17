@@ -37,8 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>19</dataTypeSize>
-<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TasaInteres" id="91A9F7C9-A4BF-0483-A82F-F0BD7A70700A">
 <createdBy>GoldNet</createdBy>

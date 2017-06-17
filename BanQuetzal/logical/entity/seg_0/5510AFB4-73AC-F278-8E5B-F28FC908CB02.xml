@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CUI" id="FDDA3B18-A78A-701C-0616-5EBC4D6C7766">
+<Attribute name="Cliente CUI" id="FDDA3B18-A78A-701C-0616-5EBC4D6C7766">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 20:05:50 UTC</createdTime>
 <generatorID>10A82C49-2A7C-B5C1-9CE2-1900A9B33D5E</generatorID>
@@ -40,9 +40,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>13</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdProducto" id="35DB820F-8CB6-7230-10FD-9954631EB5EE">
+<Attribute name="Producto IdProducto" id="35DB820F-8CB6-7230-10FD-9954631EB5EE">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 20:05:55 UTC</createdTime>
 <generatorID>9B1329C0-50D5-DC16-278B-E7F1D3F07F41</generatorID>
@@ -68,8 +68,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E467F169-AEB3-BCE1-DF52-6ED262B26314</attributeRef>
-<attributeRef>FDDA3B18-A78A-701C-0616-5EBC4D6C7766</attributeRef>
-<attributeRef>35DB820F-8CB6-7230-10FD-9954631EB5EE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

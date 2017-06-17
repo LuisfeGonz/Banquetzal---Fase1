@@ -70,7 +70,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="04771AFF-7A64-A9EC-6088-4297FD51289D" name="TipoPréstamo PK">
+<identifier id="04771AFF-7A64-A9EC-6088-4297FD51289D" name="TipoPrestamo_PK">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 23:56:16 UTC</createdTime>
 <ownerDesignName>BanQuetzal</ownerDesignName>

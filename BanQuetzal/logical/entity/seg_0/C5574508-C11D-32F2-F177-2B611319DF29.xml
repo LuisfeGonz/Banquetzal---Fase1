@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdCuenta" id="26212975-0BE2-EACC-AFF7-ABD8E55F4CA7">
+<Attribute name="Cuenta IdCuenta" id="26212975-0BE2-EACC-AFF7-ABD8E55F4CA7">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 02:36:21 UTC</createdTime>
 <generatorID>7977DF6F-CE28-0984-8163-09C5CA30B4B6</generatorID>
@@ -36,34 +36,6 @@
 <item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
 </engineerTo>
 <referedAttribute>63785ABA-D7DA-68C7-D721-459E522AC339</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdEstadoCuenta" id="3D415197-42CA-84F9-2E32-8C259735D91F">
-<createdBy>GoldNet</createdBy>
-<createdTime>2017-06-12 02:36:21 UTC</createdTime>
-<generatorID>7977DF6F-CE28-0984-8163-09C5CA30B4B6</generatorID>
-<ownerDesignName>BanQuetzal</ownerDesignName>
-<engineerTo>
-<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
-</engineerTo>
-<referedAttribute>766EB33B-95EB-0787-FE85-E6E09EE4A557</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdTipoCuenta" id="60E3B773-FC12-B20F-2789-D566A859A97A">
-<createdBy>GoldNet</createdBy>
-<createdTime>2017-06-12 02:36:21 UTC</createdTime>
-<generatorID>7977DF6F-CE28-0984-8163-09C5CA30B4B6</generatorID>
-<ownerDesignName>BanQuetzal</ownerDesignName>
-<engineerTo>
-<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
-</engineerTo>
-<referedAttribute>4ABFF500-E21B-9D1B-6782-892F89834DD3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -81,9 +53,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>5D390141-545C-BD72-C89E-36D26CD1C0BA</attributeRef>
-<attributeRef>26212975-0BE2-EACC-AFF7-ABD8E55F4CA7</attributeRef>
-<attributeRef>3D415197-42CA-84F9-2E32-8C259735D91F</attributeRef>
-<attributeRef>60E3B773-FC12-B20F-2789-D566A859A97A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

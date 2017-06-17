@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_33" directorySegmentName="seg_0" id="E3045C0D-A874-4228-AF35-C717396CF5A5">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Trabajador Agencia FK" directorySegmentName="seg_0" id="E3045C0D-A874-4228-AF35-C717396CF5A5">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-13 01:41:23 UTC</createdTime>
 <ownerDesignName>BanQuetzal</ownerDesignName>
@@ -7,7 +7,7 @@
 <item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
 </engineerTo>
 <sourcePk>50A8A647-120B-C049-703A-7E491E36584D</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

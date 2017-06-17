@@ -113,7 +113,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CEB80EAC-B326-F963-464C-D7DC7AFABF77" name="Usuario PK">
+<identifier id="CEB80EAC-B326-F963-464C-D7DC7AFABF77" name="Cliente_PK">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-11 19:55:49 UTC</createdTime>
 <generatorID>3A261BE5-E9F2-91D8-4DEC-86AEB6F96FE7</generatorID>

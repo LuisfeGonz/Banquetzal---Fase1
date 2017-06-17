@@ -37,9 +37,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
+<dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Individualidad" id="01B81F64-86CF-D64B-6B92-A1C2158EC661">
 <createdBy>GoldNet</createdBy>
@@ -54,7 +54,7 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdEstadoCuenta" id="766EB33B-95EB-0787-FE85-E6E09EE4A557">
+<Attribute name="EstadoCuenta IdEstadoCuenta" id="766EB33B-95EB-0787-FE85-E6E09EE4A557">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-11 22:38:26 UTC</createdTime>
 <generatorID>0EE1EF98-4A48-883F-211A-AC392F2C9335</generatorID>
@@ -68,7 +68,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdTipoCuenta" id="4ABFF500-E21B-9D1B-6782-892F89834DD3">
+<Attribute name="TipoCuenta IdTipoCuenta" id="4ABFF500-E21B-9D1B-6782-892F89834DD3">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 02:35:13 UTC</createdTime>
 <generatorID>44E3DB79-43B3-5BB5-82D9-94D4D3E4FF08</generatorID>
@@ -94,8 +94,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>63785ABA-D7DA-68C7-D721-459E522AC339</attributeRef>
-<attributeRef>766EB33B-95EB-0787-FE85-E6E09EE4A557</attributeRef>
-<attributeRef>4ABFF500-E21B-9D1B-6782-892F89834DD3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -54,7 +54,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="82E13DA2-FC1B-C304-886B-811506A3525C" name="Puntos PK">
+<identifier id="82E13DA2-FC1B-C304-886B-811506A3525C" name="TipoPuntoPreferencial_PK">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-11 23:35:44 UTC</createdTime>
 <ownerDesignName>BanQuetzal</ownerDesignName>

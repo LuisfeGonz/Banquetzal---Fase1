@@ -66,7 +66,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdCuenta" id="B980817F-6228-1C51-BD17-B238A30C6DD1">
+<Attribute name="Cuenta IdCuenta" id="B980817F-6228-1C51-BD17-B238A30C6DD1">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-11 22:03:43 UTC</createdTime>
 <generatorID>C019A05D-F017-83D4-7FB4-CF5F443666E8</generatorID>
@@ -80,21 +80,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdEstadoCuenta" id="831F32BE-DF81-E669-E7DB-9AB1C6C2CC6D">
-<createdBy>GoldNet</createdBy>
-<createdTime>2017-06-11 22:38:26 UTC</createdTime>
-<generatorID>C019A05D-F017-83D4-7FB4-CF5F443666E8</generatorID>
-<ownerDesignName>BanQuetzal</ownerDesignName>
-<engineerTo>
-<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
-</engineerTo>
-<referedAttribute>766EB33B-95EB-0787-FE85-E6E09EE4A557</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdTipoOperacion" id="20EE0633-32F5-4D34-B3D2-3545B8CE6730">
+<Attribute name="TipoOperacion IdTipoOperacion" id="20EE0633-32F5-4D34-B3D2-3545B8CE6730">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-11 23:11:10 UTC</createdTime>
 <generatorID>F6717739-5D26-8D94-3037-9810DC824724</generatorID>
@@ -108,7 +94,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdPuntos" id="A9CAA19A-0E10-06E7-7AE5-EA23C6C2D85C">
+<Attribute name="TipoPuntoPreferencial IdPuntos" id="A9CAA19A-0E10-06E7-7AE5-EA23C6C2D85C">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-11 23:56:08 UTC</createdTime>
 <generatorID>B550A594-B95C-2E3F-BD0C-011C7D2E58EC</generatorID>
@@ -122,21 +108,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdTipoCuenta" id="D68EC234-2E51-A79F-3573-1E781AD7CFE7">
-<createdBy>GoldNet</createdBy>
-<createdTime>2017-06-12 02:35:13 UTC</createdTime>
-<generatorID>C019A05D-F017-83D4-7FB4-CF5F443666E8</generatorID>
-<ownerDesignName>BanQuetzal</ownerDesignName>
-<engineerTo>
-<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
-</engineerTo>
-<referedAttribute>4ABFF500-E21B-9D1B-6782-892F89834DD3</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdTrabajador" id="85F39A28-9DE9-53BF-7166-A98FB7D47B47">
+<Attribute name="Trabajador IdTrabajador" id="85F39A28-9DE9-53BF-7166-A98FB7D47B47">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 02:36:00 UTC</createdTime>
 <generatorID>0E884C91-43D2-2005-0F1B-88E2B9218090</generatorID>
@@ -145,34 +117,6 @@
 <item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
 </engineerTo>
 <referedAttribute>7788FCCA-82A2-AD61-4588-167A62D21ACA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdRol" id="D0334010-46FD-5DCB-3632-CB90862553B9">
-<createdBy>GoldNet</createdBy>
-<createdTime>2017-06-12 02:36:09 UTC</createdTime>
-<generatorID>0E884C91-43D2-2005-0F1B-88E2B9218090</generatorID>
-<ownerDesignName>BanQuetzal</ownerDesignName>
-<engineerTo>
-<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
-</engineerTo>
-<referedAttribute>AA08A5B8-C3B5-A564-4524-D1527B391126</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdAgencia" id="D04CDACA-FF0D-2540-9801-E4A5CB797DED">
-<createdBy>GoldNet</createdBy>
-<createdTime>2017-06-13 01:41:23 UTC</createdTime>
-<generatorID>0E884C91-43D2-2005-0F1B-88E2B9218090</generatorID>
-<ownerDesignName>BanQuetzal</ownerDesignName>
-<engineerTo>
-<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
-</engineerTo>
-<referedAttribute>A991F6CF-7B01-B0AD-A354-01ADD5187F41</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -191,14 +135,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6E12CBB1-99FF-C132-4D1E-156A2BF30902</attributeRef>
-<attributeRef>B980817F-6228-1C51-BD17-B238A30C6DD1</attributeRef>
-<attributeRef>831F32BE-DF81-E669-E7DB-9AB1C6C2CC6D</attributeRef>
-<attributeRef>D68EC234-2E51-A79F-3573-1E781AD7CFE7</attributeRef>
-<attributeRef>20EE0633-32F5-4D34-B3D2-3545B8CE6730</attributeRef>
-<attributeRef>A9CAA19A-0E10-06E7-7AE5-EA23C6C2D85C</attributeRef>
-<attributeRef>85F39A28-9DE9-53BF-7166-A98FB7D47B47</attributeRef>
-<attributeRef>D0334010-46FD-5DCB-3632-CB90862553B9</attributeRef>
-<attributeRef>D04CDACA-FF0D-2540-9801-E4A5CB797DED</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

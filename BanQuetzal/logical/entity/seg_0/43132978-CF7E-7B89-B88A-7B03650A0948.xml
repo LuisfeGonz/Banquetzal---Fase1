@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdCuenta" id="9EF15AFF-CF93-265E-8E28-958E67B8E1B8">
+<Attribute name="Cuenta IdCuenta" id="9EF15AFF-CF93-265E-8E28-958E67B8E1B8">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 19:56:02 UTC</createdTime>
 <generatorID>1747BEAA-853F-A92E-E2B1-812FB38C9BDE</generatorID>
@@ -41,35 +41,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IdEstadoCuenta" id="DF02EA58-A7ED-7D3D-FAC0-2EC42A75FAE5">
-<createdBy>GoldNet</createdBy>
-<createdTime>2017-06-12 19:56:02 UTC</createdTime>
-<generatorID>1747BEAA-853F-A92E-E2B1-812FB38C9BDE</generatorID>
-<ownerDesignName>BanQuetzal</ownerDesignName>
-<engineerTo>
-<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
-</engineerTo>
-<referedAttribute>766EB33B-95EB-0787-FE85-E6E09EE4A557</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="IdTipoCuenta" id="E7D230F5-D40F-00FC-5550-E781DDEEF086">
-<createdBy>GoldNet</createdBy>
-<createdTime>2017-06-12 19:56:02 UTC</createdTime>
-<generatorID>1747BEAA-853F-A92E-E2B1-812FB38C9BDE</generatorID>
-<ownerDesignName>BanQuetzal</ownerDesignName>
-<engineerTo>
-<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
-</engineerTo>
-<referedAttribute>4ABFF500-E21B-9D1B-6782-892F89834DD3</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CUI" id="63636BCB-D161-B740-AC4A-9DB9C3388484">
+<Attribute name="Cliente CUI" id="63636BCB-D161-B740-AC4A-9DB9C3388484">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 19:56:32 UTC</createdTime>
 <generatorID>DD80D694-D480-F68B-4405-9FEE8DB64339</generatorID>
@@ -82,11 +54,41 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>13</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUIVicePresidente" id="1A956A33-9905-E105-0F64-DE46D6AF46C0">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-16 23:57:41 UTC</createdTime>
+<generatorID>30872C5F-F9A7-3DAF-8DAA-CC9B100590C5</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUIContador" id="8A2B85FD-8E7F-7EA1-1386-3E7BF1DD61A2">
+<createdBy>Luis González</createdBy>
+<createdTime>2017-06-16 23:57:41 UTC</createdTime>
+<generatorID>4C9FF044-FD9E-59AD-8B28-60DD17B90EE9</generatorID>
+<ownerDesignName>BanQuetzal</ownerDesignName>
+<engineerTo>
+<item key="AB4405CE-58F5-C089-1884-3D03278A2431" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FF4073A0-BD13-A05E-A649-C800F0D180B0" name="UsuarioNomina PK">
+<identifier id="FF4073A0-BD13-A05E-A649-C800F0D180B0" name="ClienteCuenta_PK">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-11 20:16:52 UTC</createdTime>
 <ownerDesignName>BanQuetzal</ownerDesignName>
@@ -95,11 +97,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>48F98D9C-D6C6-68D0-F82A-51FCED9AB795</attributeRef>
-<attributeRef>9EF15AFF-CF93-265E-8E28-958E67B8E1B8</attributeRef>
-<attributeRef>DF02EA58-A7ED-7D3D-FAC0-2EC42A75FAE5</attributeRef>
-<attributeRef>E7D230F5-D40F-00FC-5550-E781DDEEF086</attributeRef>
 <attributeRef>63636BCB-D161-B740-AC4A-9DB9C3388484</attributeRef>
+<attributeRef>9EF15AFF-CF93-265E-8E28-958E67B8E1B8</attributeRef>
+<attributeRef>48F98D9C-D6C6-68D0-F82A-51FCED9AB795</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_20" directorySegmentName="seg_0" id="DD80D694-D480-F68B-4405-9FEE8DB64339">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ClienteCuenta Cliente FK" directorySegmentName="seg_0" id="DD80D694-D480-F68B-4405-9FEE8DB64339">
 <createdBy>GoldNet</createdBy>
 <createdTime>2017-06-12 19:56:32 UTC</createdTime>
 <ownerDesignName>BanQuetzal</ownerDesignName>
